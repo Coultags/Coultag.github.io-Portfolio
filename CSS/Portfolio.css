@@ -1,0 +1,28 @@
+/***Styling for heading and body***/
+body {
+    margin: 0%; /*displays all the way to edge of the screen*/
+}
+
+/*Heading 1*/
+h1 {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 2%;
+    color: #b80b0b;
+}
+
+h1:hover {
+    filter: grayscale(10%);
+    transform: scale(1.1);
+    transition: transform 2s;
+}
+
+.white-text {
+    color: #fff;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
