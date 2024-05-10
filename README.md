@@ -1,5 +1,3 @@
-# Coultag.github.io-Portfolio
-<!DOCTYPR html>
 <html>
     <!-- Head -->
     <head>
