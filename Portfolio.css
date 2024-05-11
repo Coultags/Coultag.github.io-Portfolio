@@ -29,7 +29,7 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify; 
     letter-spacing: 1px; 
-    font-size: 19px;
+    font-size: 18px;
     padding-left: 20px; 
     padding-right: 20px; 
 }
@@ -42,7 +42,7 @@ p:hover {
 
 
 .center {
-    text-align: center; 
+    text-align: center;
 }
 
 
@@ -160,11 +160,11 @@ footer {
     right: 0; 
     bottom: 0; 
     min-width: 100%; 
-    z-index: 1; 
+    z-index: -1; 
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 246px) {
     #game {
         display: none;
     }
@@ -173,7 +173,7 @@ footer {
 /* Texts over the video */
 .Video_Text {
     background: rgba(0, 0, 0, 0.5); 
-    color: white; 
+    color: red; 
     width: 100%;
     padding: 20px; 
     position: relative; 
